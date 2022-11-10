@@ -321,7 +321,7 @@ summary {
   margin: 0 auto;
 }
 
-.clients__link, .benefits__thumb, .hero, .checkbox__label, .close-button, .filter, .soc-list__link, .soc-list {
+.clients__link, .benefits__thumb, .hero, .checkbox .checkbox__label, .close-button, .filter, .soc-list__link, .soc-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -758,18 +758,18 @@ img {
   margin: 0 auto;
 }
 
-.checkbox__label {
+.checkbox .checkbox__label {
   position: relative;
   height: 24px;
   font-size: 14px;
   line-height: 1.71;
   margin-bottom: 30px;
 }
-.checkbox__label__link {
+.checkbox__link {
   text-decoration: underline;
   color: var(--accent-color);
 }
-.checkbox__label__icon {
+.checkbox__icon {
   border: 2px solid var(--main-dark-color);
   border-radius: 2px;
   fill: none;
@@ -777,7 +777,7 @@ img {
   -webkit-transition: background-color 250ms var(--animation-function), fill 250ms var(--animation-function), border 250ms var(--animation-function);
   transition: background-color 250ms var(--animation-function), fill 250ms var(--animation-function), border 250ms var(--animation-function);
 }
-.checkbox__input:checked + .checkbox__label__icon {
+.checkbox__input:checked + .checkbox__icon {
   background-color: var(--accent-color);
   fill: var(--main-light-color);
   border: 0;
@@ -828,11 +828,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
-
 .site-nav__link {
   position: relative;
   display: block;
@@ -846,16 +844,12 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
-
 .site-nav__link--active {
   color: var(--accent-color);
 }
-
 .site-nav__link--active::after {
   content: "";
   position: absolute;
@@ -997,7 +991,6 @@ img {
 .team {
   background-color: var(--secondary-bcg-color);
 }
-
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1006,11 +999,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .team__title {
   margin-bottom: 50px;
 }
-
 .team__member {
   background: var(--background-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1019,16 +1010,13 @@ img {
   -ms-flex-preferred-size: calc((100% - 90px) / 4);
       flex-basis: calc((100% - 90px) / 4);
 }
-
 .team__member:not(:last-child) {
   margin-right: 30px;
 }
-
 .team__box {
   padding: 30px 32px;
   text-align: center;
 }
-
 .team__name {
   color: var(--main-dark-color);
   font-weight: 500;
@@ -1036,7 +1024,6 @@ img {
   line-height: 1.18;
   margin-bottom: 10px;
 }
-
 .team__position {
   font-size: 16px;
   line-height: 1.18;
