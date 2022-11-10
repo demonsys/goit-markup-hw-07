@@ -321,7 +321,7 @@ summary {
   margin: 0 auto;
 }
 
-.clients__link, .benefits__thumb, .hero, .checkbox .checkbox__label, .close-button, .filter, .soc-list__link, .soc-list {
+.clients__link, .benefits__thumb, .hero, .checkbox__label, .close-button, .filter, .soc-list__link, .soc-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -758,7 +758,7 @@ img {
   margin: 0 auto;
 }
 
-.checkbox .checkbox__label {
+.checkbox__label {
   position: relative;
   height: 24px;
   font-size: 14px;

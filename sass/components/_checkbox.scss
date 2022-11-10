@@ -1,5 +1,5 @@
 .checkbox {
-  .checkbox__label {
+  &__label {
     @extend %centeredFlex;
     position: relative;
     height: 24px;
