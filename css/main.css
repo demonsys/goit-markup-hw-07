@@ -1051,22 +1051,13 @@ img {
   margin-bottom: 20px;
 }
 .page-footer__subtitle {
-  font-style: normal;
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-light-color);
   margin-bottom: 20px;
-}
-.page-footer__subtitle {
-  display: block;
-  margin-bottom: 20px;
-  color: var(--main-light-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
 }
 .page-footer__input {
   width: 358px;
