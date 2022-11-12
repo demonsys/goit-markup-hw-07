@@ -424,16 +424,16 @@ img {
   -webkit-transition: background-color 250ms var(--animation-function), color 250ms var(--animation-function);
   transition: background-color 250ms var(--animation-function), color 250ms var(--animation-function);
 }
+.soc-list__link--dark {
+  color: var(--main-light-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
 .soc-list__link:hover, .soc-list__link:focus {
   background-color: var(--accent-color);
   color: var(--main-light-color);
 }
 .soc-list__icon {
   fill: currentColor;
-}
-.soc-list__icon--dark {
-  color: var(--main-light-color);
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .card-set {

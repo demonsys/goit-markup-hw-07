@@ -13,7 +13,7 @@
     margin-bottom: 20px;
   }
   &__subtitle {
-    font-style: normal;
+    display: block;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -22,15 +22,6 @@
     margin-bottom: 20px;
   }
 
-  &__subtitle {
-    display: block;
-    margin-bottom: 20px;
-    color: var(--main-light-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-transform: uppercase;
-  }
   &__input {
     width: 358px;
     height: 50px;
